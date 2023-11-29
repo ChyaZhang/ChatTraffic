@@ -61,3 +61,17 @@ CUDA_VISIBLE_DEVICES=<GPU_ID> python main.py --base configs/autoencoder/autoenco
 ```
 CUDA_VISIBLE_DEVICES=<GPU_ID> python main.py --base configs/latent-diffusion/traffic.yaml -t --gpus 0,
 ```
+
+## Generation
+```
+python scripts/chattraffic.py --prompt "January 19, 2022, 15:48. road closure on south second ring road. a general traffic accident on s50 east fifth ring road. a general traffic accident on sihui bridge. road closure on wufang bridge. ......"
+```
+
+The output samples are in `.npy` format, you can use `scripts/plot_map.py` to visualize the traffic data on the map.
+
+
+
+
+## Acknowledgments
+
+Our code borrows heavily from [Latent Diffusion](https://github.com/CompVis/latent-diffusion).
