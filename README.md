@@ -51,3 +51,13 @@ ChatTraffic
             train.txt
             validation.txt
 ```
+## Model Training
+
+### Training autoencoder models
+```
+CUDA_VISIBLE_DEVICES=<GPU_ID> python main.py --base configs/autoencoder/autoencoder_traffic.yaml -t --gpus 0,  
+```
+### Training diffusion model
+```
+CUDA_VISIBLE_DEVICES=<GPU_ID> python main.py --base configs/latent-diffusion/traffic.yaml -t --gpus 0,
+```
