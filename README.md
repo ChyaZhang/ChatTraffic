@@ -12,6 +12,6 @@ ChatTraffic is capable of generating traffic situations (speed, congestion level
 </p>
 
 
-#Requirements
+# Requirements
 
 Our code is built upon [Latent Diffusion](https://github.com/CompVis/latent-diffusion).
