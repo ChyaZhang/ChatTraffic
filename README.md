@@ -15,3 +15,9 @@ ChatTraffic is capable of generating traffic situations (speed, congestion level
 # Requirements
 
 Our code is built upon [Latent Diffusion](https://github.com/CompVis/latent-diffusion).
+```
+git clone https://github.com/ChyaZhang/ChatTraffic.git
+cd ChatTraffic
+conda env create -f environment.yaml
+conda activate ChatTraffic
+```
