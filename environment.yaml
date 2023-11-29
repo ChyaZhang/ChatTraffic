@@ -1,4 +1,4 @@
-name: ldm
+name: ChatTraffic
 channels:
   - pytorch
   - defaults
@@ -24,5 +24,5 @@ dependencies:
     - transformers==4.3.1
     - -i https://pypi.tuna.tsinghua.edu.cn/simple
     - -e git+https://github.com/CompVis/taming-transformers.git@master#egg=taming-transformers
-    # - -e git+https://github.com/openai/CLIP.git@main#egg=clip
-    # - -e .
+    - -e git+https://github.com/openai/CLIP.git@main#egg=clip
+    - -e .
