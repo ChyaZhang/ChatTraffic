@@ -75,3 +75,15 @@ The output samples are in `.npy` format, you can use `scripts/plot_map.py` to vi
 ## Acknowledgments
 
 Our code borrows heavily from [Latent Diffusion](https://github.com/CompVis/latent-diffusion).
+
+##BibTeX
+
+If you find this work useful for you, please cite
+```
+@article{zhang2023chattraffc,
+  title={ChatTraffc: Text-to-Traffic Generation via Diffusion Model},
+  author={Zhang, Chengyang and Zhang, Yong and Shao, Qitan and Li, Bo and Lv, Yisheng and Piao, Xinglin and Yin, Baocai},
+  journal={arXiv preprint arXiv:2311.16203},
+  year={2023}
+}
+```
