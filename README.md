@@ -76,7 +76,7 @@ The output samples are in `.npy` format, you can use `scripts/plot_map.py` to vi
 
 Our code borrows heavily from [Latent Diffusion](https://github.com/CompVis/latent-diffusion).
 
-##BibTeX
+## BibTeX
 
 If you find this work useful for you, please cite
 ```
