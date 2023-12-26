@@ -80,7 +80,7 @@ Our code borrows heavily from [Latent Diffusion](https://github.com/CompVis/late
 
 If you find this work useful for you, please cite
 ```
-@article{zhang2023chattraffc,
+@article{zhang2023chattraffic,
   title={ChatTraffc: Text-to-Traffic Generation via Diffusion Model},
   author={Zhang, Chengyang and Zhang, Yong and Shao, Qitan and Li, Bo and Lv, Yisheng and Piao, Xinglin and Yin, Baocai},
   journal={arXiv preprint arXiv:2311.16203},
