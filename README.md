@@ -23,7 +23,7 @@ conda activate ChatTraffic
 ```
 ## Data Preparation
 
-The datasets will be available after the confidentiality review.
+For the datasets download please refer to [BjTT: A Large-scale Multimodal Dataset for Traffic Prediction](https://chyazhang.github.io/BjTT).
 
 After getting the datasets, put them under a directory as follows:
 ```
