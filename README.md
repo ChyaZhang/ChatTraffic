@@ -27,29 +27,35 @@ For the datasets download please refer to [BjTT: A Large-scale Multimodal Datase
 
 After getting the datasets, put them under a directory as follows:
 ```
-ChatTraffic
-    datasets/
-        traffic/
-            train/
-                data/
-                    1_1.npy
-                    1_2.npy
-                    ...
-                text/
-                    1_1.txt
-                    1_2.txt
-            validation/
-                data/
-                    1_6697.npy
-                    1_6698.npy
-                    ...
-                text/
-                    1_6697.txt
-                    1_6698.txt
-            matrix_roadclass&length.npy
-            Roads1260.json
-            train.txt
-            validation.txt
+BjTT
+    data/
+        1/
+            1_1.npy
+            1_2.npy
+            ...
+        2/
+            2_1.npy
+            2_2.npy
+            ...
+        3/
+            3_1.npy
+            3_2.npy
+            ...
+    text/
+        1/
+            1_1.txt
+            1_2.txt
+            ...
+        2/
+            2_1.txt
+            2_2.txt
+            ...
+        3/
+            3_1.txt
+            3_2.txt
+            ...
+    matrix.npy
+    Roads1260.json
 ```
 ## Model Training
 
