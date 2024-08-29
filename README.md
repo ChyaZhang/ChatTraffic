@@ -46,7 +46,7 @@ ChatTraffic
                 text/
                     1_6697.txt
                     1_6698.txt
-            matrix_roadclass&length.npy
+            matrix.npy
             Roads1260.json
             train.txt
             validation.txt
