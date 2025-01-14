@@ -1,5 +1,5 @@
 # ChatTraffic
-Official PyTorch implementation of [ChatTraffic: Text-to-Traffic Generation via Diffusion Model](https://arxiv.org/abs/2311.16203)
+Official PyTorch implementation of [ChatTraffic: Text-to-Traffic Generation via Diffusion Model](https://ieeexplore.ieee.org/document/10803279)
 
 [![arXiv](https://img.shields.io/badge/arXiv-2311.16203-b31b1b.svg)](https://arxiv.org/abs/2311.16203)
 
@@ -80,10 +80,13 @@ Our code borrows heavily from [Latent Diffusion](https://github.com/CompVis/late
 
 If you find this work useful for you, please cite
 ```
-@article{zhang2023chattraffic,
-  title={ChatTraffic: Text-to-Traffic Generation via Diffusion Model},
+@ARTICLE{10803279,
   author={Zhang, Chengyang and Zhang, Yong and Shao, Qitan and Li, Bo and Lv, Yisheng and Piao, Xinglin and Yin, Baocai},
-  journal={arXiv preprint arXiv:2311.16203},
-  year={2023}
-}
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={ChatTraffic: Text-to-Traffic Generation via Diffusion Model}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-13},
+  doi={10.1109/TITS.2024.3510402}}
 ```
